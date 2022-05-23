@@ -1,6 +1,11 @@
 import Head from 'next/head'
+import { useSelector } from 'react-redux';
+import PlayScene from '../scenes/play';
+import ResultScene from '../scenes/result';
+import StartScene from '../scenes/start';
 
 const Home = () => {
+  const scene = useSelector(state => state.switcher.scene);
   return (
     <>
       <Head>
@@ -12,8 +17,10 @@ const Home = () => {
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <main className='flex justify-center items-center'>
-        <h1>Hello Next.js</h1>
+      <main className='w-screen h-screen bg-black text-white font-gothic'>
+        {scene === 'start' && <StartScene />}
+        {scene === 'play' && <PlayScene />}
+        {scene === 'result' && <ResultScene />}
       </main>
     </>
   );
