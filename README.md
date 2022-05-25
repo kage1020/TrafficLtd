@@ -30,4 +30,16 @@ npm run dev
 yarn dev
 ```
 
-open `http:localhost:3000/`, and play on your browser!
+open `http://localhost:3000/`, and play on your browser!
+
+## Links
+
+* explanation:
+    [Zenn](https://zenn.dev/kage1020/articles/c90b4e4a7aba75)
+
+* references:
+    [Next.js](https://nextjs.org/)
+    [tailwind css](https://tailwindcss.com/)
+    [React Redux](https://react-redux.js.org/)
+    [Redux Toolkit](https://redux-toolkit.js.org/)
+    [clsx](https://github.com/lukeed/clsx)

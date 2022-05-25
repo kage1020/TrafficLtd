@@ -5,7 +5,7 @@ import ResultScene from '../scenes/result';
 import StartScene from '../scenes/start';
 
 const Home = () => {
-  const scene = useSelector(state => state.switcher.scene);
+  const scene = useSelector(state => state.scene.scene);
   return (
     <>
       <Head>

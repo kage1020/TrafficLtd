@@ -1,8 +1,10 @@
-import { configureStore } from '@reduxjs/toolkit';
+import { combineReducers, configureStore } from '@reduxjs/toolkit';
 import sceneReducer from './slices/sceneSlice';
+import modeReducer from './slices/modeSlice';
 
 export const store = configureStore({
-  reducer: {
-    switcher: sceneReducer
-  }
+  reducer: combineReducers({
+    scene: sceneReducer,
+    mode: modeReducer,
+  })
 });
