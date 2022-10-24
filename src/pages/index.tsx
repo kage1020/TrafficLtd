@@ -7,7 +7,7 @@ const Home: NextPage = () => {
       <Head>
         <title>Traffic Ltd.</title>
       </Head>
-      <div>HelloWorld!</div>
+      <div className='text-3xl'>HelloWorld!</div>
     </>
   )
 }
