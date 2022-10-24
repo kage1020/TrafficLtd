@@ -1,34 +1,52 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Traffic Ltd
 
-## Getting Started
+## What is "Traffic Ltd."?
 
-First, run the development server:
+management and strategy simulation game based on public transportation in Japan
+
+I show you some similar game.
+
+- [Plague Inc.](https://www.ndemiccreations.com/en/22-plague-inc)
+- [Fly Corp](https://en.kishmish-games.com/fly-corp)
+- [Mini Metro](https://dinopoloclub.com/games/mini-metro/)
+
+## How to play on Web
+
+visit [this site](https://traffic-ltd.vercel.app/)
+
+## How to play on local
 
 ```bash
-npm run dev
+git clone https://github.com/kage1020/TrafficLtd.git
 # or
+git clone git@github.com:kage1020/TrafficLtd.git
+
+# then
+
+cd TrafficLtd
+
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+open `http://localhost:3000/`, and play on your browser!
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Links
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+- explanation:
+  [Zenn](https://zenn.dev/kage1020/articles/c90b4e4a7aba75)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- references:
 
-## Learn More
+  - [Next.js](https://nextjs.org/)
 
-To learn more about Next.js, take a look at the following resources:
+  - [tailwind css](https://tailwindcss.com/)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+  - [React Redux](https://react-redux.js.org/)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+  - [Redux Toolkit](https://redux-toolkit.js.org/)
 
-## Deploy on Vercel
+  - [clsx](https://github.com/lukeed/clsx/)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+  - [leaflet](https://leafletjs.com/)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+  - [React leaflet](https://react-leaflet.js.org/)

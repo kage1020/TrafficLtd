@@ -1,6 +1,28 @@
 {
   "name": "traffic-ltd",
+  "displayName": "TrafficLtd",
+  "description": "management and strategy simulation game based on public transportation in Japan",
+  "keywords": [
+    "game",
+    "simulation game",
+    "transportation",
+    "Japan",
+    "strategy game",
+    "management game",
+    "React",
+    "Next.js",
+    "tailwindcss",
+    "TypeScript",
+    "Redux",
+    "leaflet"
+  ],
+  "homepage": "https://traffic-ltd.vercel.app",
+  "license": "MIT",
   "version": "0.1.0",
+  "author": {
+    "name": "kage1020",
+    "url": "https://github.com/kage1020"
+  },
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,16 +31,35 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^1.8.6",
+    "clsx": "^1.2.1",
+    "cuid": "^2.1.8",
+    "leaflet": "^1.9.2",
+    "leaflet-markers-canvas": "^0.2.2",
     "next": "12.3.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-leaflet": "^4.1.0",
+    "react-redux": "^8.0.4",
+    "react-timer-hook": "^3.0.5"
   },
   "devDependencies": {
+    "@types/gtag.js": "^0.0.12",
+    "@types/leaflet": "^1.9.0",
     "@types/node": "18.11.4",
     "@types/react": "18.0.21",
     "@types/react-dom": "18.0.6",
+    "@typescript-eslint/eslint-plugin": "^5.40.1",
+    "@typescript-eslint/parser": "^5.40.1",
+    "autoprefixer": "^10.4.12",
     "eslint": "8.26.0",
     "eslint-config-next": "12.3.1",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "postcss": "^8.4.18",
+    "prettier": "^2.7.1",
+    "prettier-plugin-tailwindcss": "^0.1.13",
+    "tailwindcss": "^3.2.1",
     "typescript": "4.8.4"
   }
 }
