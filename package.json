@@ -31,12 +31,18 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@piotr-cz/swr-idb-cache": "^1.0.0-rc.2",
     "@reduxjs/toolkit": "^1.8.6",
     "clsx": "^1.2.1",
     "cuid": "^2.1.8",
+    "dexie": "^3.2.2",
+    "dexie-react-hooks": "^1.1.1",
     "leaflet": "^1.9.2",
     "leaflet-markers-canvas": "^0.2.2",
+    "leaflet.animatedmarker": "^1.0.0",
+    "leaflet.motion": "^0.3.2",
     "next": "12.3.1",
+    "rbush": "^3.0.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-leaflet": "^4.1.0",
